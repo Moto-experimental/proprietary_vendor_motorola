@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_497.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_497.xml \
     vendor/motorola/cedric/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_497.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_497.xml \
     vendor/motorola/cedric/proprietary/vendor/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3203b-16120901-25d862-cedric.tdat \
-    vendor/motorola/cedric/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/motorola/cedric/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0_vendor.so \
     vendor/motorola/cedric/proprietary/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libDepthBokehEffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDepthBokehEffect.so \
@@ -163,3 +162,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/motorola/cedric/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so
+
+PRODUCT_PACKAGES += \
+    com.fingerprints.extension
