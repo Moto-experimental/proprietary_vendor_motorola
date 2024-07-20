@@ -3,4 +3,4 @@
     <hidden-api-whitelisted-app package="com.dolby.daxservice"/>
     <allow-in-power-save package="com.dolby.daxservice"/>
     <allow-implicit-broadcast action="com.dolby.intent.action.DAP_PARAMS_UPDATE" />
-</config>
+</config> 
